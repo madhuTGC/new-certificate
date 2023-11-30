@@ -1,0 +1,81 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+
+
+
+.score {
+    width: 200px;
+    border-bottom: 1px solid rgb(70, 67, 67); /* Change 'dotted' to 'solid' */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px; /* Adjust the margin as needed */
+    font-size: 0.6em;
+    /* font-weight: 700; */
+    font-family: cursive;
+}
+
+.score2 {
+    width: 300px;
+    border-bottom: 1px solid black; /* Change 'dotted' to 'solid' */
+    display: flex;
+    justify-content: center;
+    font-size: 0.6em;
+    font-weight: 700;
+}
+
+
+
+/* Add this style inside the head of your HTML document */
+@media (max-width: 767px) {
+    body {
+        padding-top: 60px; /* Adjust as needed */
+    }
+
+    .card {
+        margin: 0;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    .col-md-6,
+    .col-md-12 {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .col-md-6.text-end {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    h1,
+    h2,
+    h6 {
+        font-size: 1.5em;
+        margin: 10px 0;
+    }
+
+    img {
+        max-width: 80px;
+        margin: 10px;
+    }
+
+    .score {
+        width: 100%;
+        font-size: 1em;
+        margin: 10px 0;
+    }
+
+    .scor,
+    .s {
+        font-size: 0.8em;
+        margin: 5px 0;
+    }
+}
